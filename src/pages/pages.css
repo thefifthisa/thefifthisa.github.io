@@ -1,0 +1,125 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+
+body,
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.75;
+  margin: 0;
+}
+
+ul:last-child,
+li:last-child {
+  margin-bottom: 0;
+}
+
+.bio,
+.projects,
+.contact {
+  padding: 20px;
+  z-index: 10;
+}
+
+.bio {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.projects {
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+}
+
+.contact {
+  grid-column: 3 / 6;
+  grid-row: 3 / 4;
+}
+
+b[id] {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  border: 1.5px dashed black;
+}
+
+b#b {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  z-index: 8;
+}
+
+b#p {
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+  z-index: 8;
+}
+
+b#c {
+  grid-column: 3 / 6;
+  grid-row: 3 / 4;
+  z-index: 8;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  user-select: none;
+  grid-column: 1 / 6;
+  grid-row: 1 / 4;
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bio,
+  .projects,
+  .contact {
+    grid-column: 1 / 6;
+  }
+
+  b#b {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
+  b#p {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+  }
+
+  b#c {
+    grid-column: 1 / 6;
+    grid-row: 3 / 4;
+  }
+}
