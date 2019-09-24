@@ -193,7 +193,7 @@ class Index extends Component {
               </a>
               , and{" "}
               <a
-                href="../files/resume_ijlavandero.pdf"
+                href="https://drive.google.com/file/d/1qd2PH7Q37rPgrzMxHJjig92dD0RKy41s/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
