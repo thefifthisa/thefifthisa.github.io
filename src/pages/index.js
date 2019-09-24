@@ -192,7 +192,11 @@ class Index extends Component {
                 LinkedIn
               </a>
               , and{" "}
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="../files/resume_ijlavandero.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 resume
               </a>
               . ✨
