@@ -18,16 +18,6 @@ footer {
   padding-left: 4em;
   padding-right: 4em;
   margin: 0 auto;
-
-  @media (max-width: 768px) {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-  }
-
-  @media (max-width: 600px) {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
 }
 
 .layoutContent {
@@ -37,6 +27,11 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+  .layoutContainer {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
   .layoutContent {
     padding: 1em 0 5em 0;
   }
