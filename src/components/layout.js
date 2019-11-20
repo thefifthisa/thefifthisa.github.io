@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Header from "./header"
 
 import "./layout.css"
 
@@ -24,24 +25,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `3rem auto`,
-          maxWidth: 1024,
-          padding: `0 1.0875rem`,
-          display: `grid`,
-          gridTemplateRows: `1fr`,
-          alignItems: `center`,
-          justifyItems: `center`,
-        }}
-      >
-        <main style={{ placeSelf: `center` }}>{children}</main>
+      <div className="layoutContainer">
+        <Header />
+        <main className="layoutContent">{children}</main>
+        <footer>
+          © {new Date().getFullYear()} • Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
       </div>
-      <footer>
-        © {new Date().getFullYear()} • Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
     </>
   )
 }
