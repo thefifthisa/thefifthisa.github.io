@@ -16,15 +16,42 @@ const Work = () => (
       >
         <ul>
           <li>
-            <a
-              href="https://drive.google.com/file/d/1yya-ziO7MuJF5kyQjEk4gPoEKEGDm3Xv/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Election Receipts
-            </a>
-            , a physical representation of real-time election results via a
-            Raspberry Pi-controlled thermal printer
+            @ The Washington Post:
+            <ul>
+              <li>
+                Prototypes for live race pages using React, Next.js, AMP, and
+                WebSockets (
+                <a
+                  href="https://www.washingtonpost.com/elections/election-results/virginia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  eventually used during actual elections!
+                </a>
+                )
+              </li>
+              <li>
+                <a
+                  href="https://washpost.engineering/2019/10/22/our-new-engineering-blog-postcode/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PostCode
+                </a>
+                , a complete redesign of the engineering blog using PageBuilder Fusion, a React-based rendering engine
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1yya-ziO7MuJF5kyQjEk4gPoEKEGDm3Xv/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Election Receipts
+                </a>
+                , a physical representation of real-time election results via a
+                Raspberry Pi-controlled thermal printer
+              </li>
+            </ul>
           </li>
           <li>
             <a

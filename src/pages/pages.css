@@ -21,13 +21,9 @@ p {
 
 .content {
   display: grid;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: 1.25fr 1fr;
   place-items: center;
   text-align: center;
-}
-
-.index {
-  grid-template-rows: 1.25fr 1fr;
 }
 
 .contact {

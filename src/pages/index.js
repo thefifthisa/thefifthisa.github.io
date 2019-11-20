@@ -9,7 +9,7 @@ class Index extends Component {
     return (
       <Layout>
         <SEO title="Isabelle Jordan Lavandero" />
-        <div className="content index">
+        <div className="content">
           <h1>Hello world, I'm Isabelle! 👋🏼🌏</h1>
           <p>
             Hailing from the Philippines, I’m now a senior at NYU studying
